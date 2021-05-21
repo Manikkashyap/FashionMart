@@ -1,0 +1,109 @@
+<div class="container">
+<div class="row">
+<mat-card>
+      <mat-card-header>
+        <mat-card-title><p class="head">Register</p></mat-card-title>
+      </mat-card-header>
+      <br>
+
+      <form class="example-form" #userform="ngForm" (ngSubmit)="addData(userform)">
+
+        <mat-card-content>
+          <mat-form-field>
+            <input matInput
+            placeholder="Name"
+            required name="name"
+            #name="ngModel"
+            [ngClass] = "{'is-invalid':userform.submitted && name.invalid}"
+            [(ngModel)]="userservice.newUser.name">
+          </mat-form-field>
+          <mat-error *ngIf="userform.submitted && name.invalid">
+            <mat-error *ngIf="name.errors?.required">
+                Name should be entered
+            </mat-error>
+          </mat-error>
+          <br><br>
+
+          <mat-form-field>
+            <input matInput
+            placeholder="Email"
+            email required name="email"
+            #email="ngModel"
+            [ngClass] = "{'is-invalid':userform.submitted && email.invalid}"
+            [(ngModel)]="userservice.newUser.email">
+          </mat-form-field>
+          <mat-error *ngIf="userform.submitted && email.invalid">
+            <mat-error *ngIf="email.errors?.required">
+                Email should be entered .
+            </mat-error>
+            <mat-error *ngIf="email.errors?.email required">
+                Enter valid Email .
+          </mat-error>
+          </mat-error>
+          <br><br>
+
+          <mat-form-field class="example-full-width">
+            <input matInput
+            placeholder="Contact"
+            required name="contact"
+            #contact="ngModel"
+            [ngClass] = "{'is-invalid':userform.submitted && contact.invalid}"
+            [(ngModel)]="userservice.newUser.contact"
+            minlength=10>
+          </mat-form-field>
+          <mat-error *ngIf="userform.submitted && contact.invalid">
+            <mat-error *ngIf="contact.errors?.required">
+                Contact should be entered
+            </mat-error>
+            <mat-error *ngIf="contact.errors?.minlength">
+                Contact is invalid , its of 10 digits .
+            </mat-error>
+          </mat-error>
+          <br><br>
+
+          <mat-form-field class="example-full-width">
+            <input matInput
+            placeholder="Password"
+            required name="password"
+            #password="ngModel"
+            [ngClass] = "{'is-invalid':userform.submitted && password.invalid}"
+            [(ngModel)]="userservice.newUser.password">
+          </mat-form-field>
+          <mat-error *ngIf="userform.submitted && password.invalid">
+            <mat-error *ngIf="password.errors?.required">
+                Password should be entered .
+            </mat-error>
+          </mat-error>
+          <br><br>
+
+          <mat-form-field class="example-full-width">
+            <input matInput
+            placeholder="Address"
+            required name="address"
+            #address="ngModel"
+            [ngClass] = "{'is-invalid':userform.submitted && address.invalid}"
+            [(ngModel)]="userservice.newUser.address">
+          </mat-form-field>
+          <mat-error *ngIf="userform.submitted && address.invalid">
+            <mat-error *ngIf="address.errors?.required">
+                Password should be entered .
+            </mat-error>
+          </mat-error>
+          <br><br>
+
+        </mat-card-content>
+
+        <button class="btn0 rounded-pill" type = " submit " mat-raised-button color="primary">Submit</button>
+        <br>
+        <br>
+        <button class="btn1 rounded-pill" type = "reset" mat-raised-button color="primary">Clear</button>
+
+      </form>
+
+      <hr class="hr">
+
+      <p class="link">Have an account?<a routerLink=""> Log In </a></p>
+
+</mat-card>
+</div>
+</div>

@@ -1,0 +1,64 @@
+.form-inline{
+  margin-right: 50px !important;
+}
+
+.form-control{
+  width: 350px !important;
+}
+
+
+.active, .collapse ul li:hover{
+
+  border-radius: 3px;
+}
+
+
+.sub-menu-1{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.collapse ul li:hover .sub-menu-1{
+  display: inline-block;
+  position: absolute;
+  margin-top: 1.2px;
+  margin-left:-19px;
+}
+
+.collapse ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+}
+
+.collapse ul li:hover .sub-menu-1 ul li {
+  width: 130px;
+  padding: 10px;
+  /* border-bottom: 1px dotted #fff; */
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.collapse ul li:hover .sub-menu-1 ul li:hover {
+  border-radius:3px;
+  background-color: #ddd;
+}
+
+.collapse ul li  a{
+  text-decoration: none;
+}
+
+.sub-menu-1 ul {
+  list-style-type: none;
+}
+
+.sub-menu-1 ul li  a{
+  text-decoration: none;
+  color:black;
+  display: block;
+}
+

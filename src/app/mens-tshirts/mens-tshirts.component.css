@@ -1,0 +1,45 @@
+.mat-card{
+  max-width: 300px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.fltr{
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.card-title{
+  font-weight: 500;
+}
+
+.custom-control-label{
+  color: black;
+  font-weight: 400;
+}
+
+#s{
+  margin: 3px;
+}
+
+#m{
+  margin: 3px;
+}
+
+#l{
+  margin: 3px;
+}
+
+#xl{
+  margin: 3px;
+}
+
+#xxl{
+  margin: 3px;
+}
+
+.cartbtn{
+  margin-left: 8px !important;
+}

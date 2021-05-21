@@ -1,0 +1,181 @@
+/* #example-card {
+  width: 300px;
+  margin-left: 75px;
+  border-radius: 2%;
+} */
+
+b, strong {
+  font-weight: bolder;
+  color: black;
+}
+
+.mat-card{
+  max-width: 300px;
+}
+
+.example-header-image {
+  background-image: url('https://image.slidesharecdn.com/logo-150806070500-lva1-app6892/95/brand-logo-quiz-2015-231-1024.jpg?cb=1438844966');
+  background-size:cover;
+}
+
+.heading{
+  margin-left: 50px;
+  text-transform: uppercase ;
+  letter-spacing: .15em;
+  font-size: 2.2em;
+  max-height: 5em;
+  font-weight:500;
+  display: block;
+}
+
+.allendescription{
+  font-size: 1.3em;
+  max-height: 7em;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  color: rgba(0, 0, 0, 0.555);
+  text-align: center;
+}
+
+
+/* #example-card1 {
+  width: 300px;
+  margin-left: -50px;
+  border-radius: 2%;
+  margin-top: 0px;
+} */
+
+.women{
+  font-size: 1.3em;
+  max-height: 5em;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  color: rgba(0, 0, 0, 0.555);
+  text-align: center;
+}
+
+.example-header-image1{
+  background-image: url('https://i.pinimg.com/280x280_RS/6b/cb/37/6bcb377c8b5646b09cfaf38bf8a3d9cc.jpg');
+  background-size: cover;
+}
+
+
+/* #example-card2{
+  width: 300px;
+  margin-left: 745px;
+  border-radius: 2%;
+  margin-top: -475px;
+} */
+
+.example-header-image2{
+  background-image: url('https://i.pinimg.com/280x280_RS/28/b5/70/28b5701b7bb2e722fbef2f9db69f8ae0.jpg');
+  background-size: cover;
+}
+
+/* #example-card3{
+  width: 300px;
+  margin-left: 1060px;
+  border-radius: 2%;
+  margin-top: -475px;
+} */
+
+.example-header-image3{
+  background-image: url('https://i.pinimg.com/280x280_RS/e4/d1/15/e4d115cbe45a22f08e634ea28e9ee506.jpg');
+  background-size: cover;
+}
+
+.example-header-image4{
+  background-image: url('https://i.pinimg.com/280x280_RS/76/82/12/7682128172df1e42af6cb874d57c171b.jpg');
+  background-size: cover;
+}
+
+.example-header-image5{
+  background-image: url('https://i.pinimg.com/564x/d7/af/32/d7af326b85e62c293dba7bad9f4f1757.jpg');
+  background-size: cover;
+}
+
+.example-header-image6{
+  background-image: url('https://i.pinimg.com/280x280_RS/df/f9/18/dff9183514b74a8fb91c7c3543af6258.jpg');
+  background-size: cover;
+}
+
+.example-header-image7{
+  background-image: url('https://i.pinimg.com/280x280_RS/fd/fa/71/fdfa713a7947e9f8a3f9a0b15f91f2f6.jpg');
+  background-size: cover;
+}
+
+
+/* shadow */
+
+
+.example-card{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card1{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card2{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card2:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card3{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card3:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card4{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card4:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card5{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card5:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card6{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card6:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.example-card7{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.example-card7:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

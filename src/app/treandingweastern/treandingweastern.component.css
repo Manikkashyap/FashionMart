@@ -1,0 +1,32 @@
+.heading{
+  margin-left: 50px;
+  text-transform: uppercase ;
+  letter-spacing: .15em;
+  font-size: 2.2em;
+  max-height: 5em;
+  font-weight:500;
+  display: block;
+}
+
+b, strong {
+  font-weight: bolder;
+  color: black;
+}
+
+.description{
+  font-size: 1em;
+  max-height: 5em;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  color: rgba(0, 0, 0, 0.555);
+  text-align: center;
+}
+
+.mat-card{
+  width: 200px;
+}
+
+
+.card1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

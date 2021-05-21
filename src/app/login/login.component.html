@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row">
+  <mat-card>
+        <mat-card-header>
+          <mat-card-title><p class="head">Login</p></mat-card-title>
+        </mat-card-header>
+        <br>
+
+        <form class="example-form" #loginform="ngForm" (ngSubmit)="logindata(loginform)">
+
+        <mat-card-content>
+           <mat-form-field>
+              <input matInput
+              placeholder="Email"
+              email required name="email"
+              #email="ngModel"
+              [ngClass] = "{'is-invalid':loginform.submitted && email.invalid}"
+              [(ngModel)]="userservice.newUser.email">
+            </mat-form-field>
+            <mat-error *ngIf="loginform.submitted && email.invalid">
+              <mat-error *ngIf="email.errors?.required">
+                  Email should be entered .
+              </mat-error>
+              <mat-error *ngIf="email.errors?.email required">
+                  Enter valid Email .
+            </mat-error>
+            </mat-error>
+            <br><br>
+
+            <mat-form-field class="example-full-width">
+              <input matInput
+              placeholder="Password"
+              required name="password"
+              #password="ngModel"
+              [ngClass] = "{'is-invalid':loginform.submitted && password.invalid}"
+              [(ngModel)]="userservice.newUser.password">
+            </mat-form-field>
+            <mat-error *ngIf="loginform.submitted && password.invalid">
+              <mat-error *ngIf="password.errors?.required">
+                  Password should be entered .
+              </mat-error>
+            </mat-error>
+            <br><br>
+
+          </mat-card-content>
+
+          <button class="btn0 rounded-pill" type = " submit " mat-raised-button color="primary">Submit</button>
+          <br>
+          <br>
+          <button class="btn1 rounded-pill" type = "reset" mat-raised-button color="primary">Clear</button>
+
+        </form>
+
+        <p class="link">Don't have an account?<a routerLink=""> Log In </a></p>
+
+  </mat-card>
+  </div>
+  </div>
+
+
+
+
+

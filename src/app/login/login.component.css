@@ -1,0 +1,27 @@
+mat-card{
+  max-width: 500px;
+  min-width: 500px;
+  min-height: 65%;
+  border-radius: 10px;
+}
+
+mat-form-field{
+  width: 450px;
+}
+
+
+.head{
+  font-size: 2em;
+  font-weight: 500;
+  margin-left: 135px;
+}
+
+.btn0, .btn1 {
+  width: 100%;
+}
+
+.link{
+  text-align: center;
+  font-weight: 500;
+}
+

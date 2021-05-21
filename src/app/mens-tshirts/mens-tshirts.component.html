@@ -1,0 +1,138 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <br>
+      <p class="fltr">FILTERS</p>
+            <!-- Colors -->
+
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Colors</h3>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Red </div>
+                    </label>
+                  </div> <!-- col.// -->
+                  <div class="col-md-12">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Green </div>
+                    </label>
+                  </div> <!-- col.// -->
+                  <div class="col-md-12">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Blue</div>
+                    </label>
+                  </div> <!-- col.// -->
+                  <div class="col-md-12">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox"  class="custom-control-input">
+                      <div class="custom-control-label">Black </div>
+                    </label>
+                  </div> <!-- col.// -->
+                  <div class="col-md-12">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <div class="custom-control-label">White </div>
+                    </label>
+                  </div> <!-- col.// -->
+                  <div class="col-md-12">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" checked="" class="custom-control-input">
+                      <div class="custom-control-label">Gray </div>
+                    </label>
+                  </div> <!-- col.// -->
+                </div> <!-- row.// -->
+                <a href="#" type="reset" class="btn btn-dark btn-ml mt-2">Reset</a>
+              </div>
+            </div>
+
+      <!-- RATINGS -->
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Rating</h3>
+          <label class="custom-control custom-checkbox">
+            <input type="checkbox" checked="" class="custom-control-input">
+            <div class="custom-control-label text-warning">
+              <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+            </div>
+          </label>
+
+          <label class="custom-control custom-checkbox">
+            <input type="checkbox" checked="" class="custom-control-input">
+            <div class="custom-control-label text-warning">
+              <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </label>
+
+          <label class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input">
+            <div class="custom-control-label text-warning">
+              <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+            </div>
+          </label>
+
+          <label class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input">
+            <div class="custom-control-label text-warning">
+              <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+            </div>
+          </label>
+        </div>
+      </div> <!-- card.// -->
+
+      <!-- price -->
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Price range</h3>
+          <input type="range" class="custom-range" min="100" max="1000" name="">
+          <div class="form-row">
+          <div class="form-group col-md-6">
+            <label>Min</label>
+            <input class="form-control" placeholder="$0" type="number">
+          </div>
+          <div class="form-group text-right col-md-6">
+            <label>Max</label>
+            <input class="form-control" placeholder="$1,0000" type="number">
+          </div>
+          </div> <!-- form-row.// -->
+          <button class="btn btn-block btn-dark">Apply</button>
+        </div>
+      </div> <!-- card.// -->
+
+      <!-- end of col-md-4  -->
+    </div>
+
+    <!-- Start of col-md-8 -->
+    <div class="col-md-8">
+      <h1>PRODUCTS</h1>
+
+      <div class="col-md-3">
+        <mat-card class="example-card">
+          <img mat-card-image src="../../assets/allen/ALLENSOLLY T-SHIRT.jpg">
+          <mat-card-content>
+            <p>
+              ALLEN SOLLY MEN'S T-SHIRT
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <var class="price">RS.850</var> <!-- price-wrap.// -->
+
+            <!-- <a href="#" class="btn rounded-pill btn-outline-dark float-right"><i class="fa fa-shopping-cart"></i> Rounded pill</a> -->
+            <button mat-stroked-button color="dark" class="cartbtn"><i class="fa fa-shopping-cart"></i> ADD TO CART</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+
+    </div>
+  </div>
+</div>
+
